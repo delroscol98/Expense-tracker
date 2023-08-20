@@ -74,6 +74,7 @@ const ExpenseForm = (props) => {
     event.preventDefault();
 
     const expenseData = {
+      id: Math.random() * 10000,
       title: enteredTitle,
       amount: enteredAmount,
       date: new Date(enteredDate),
