@@ -20,6 +20,16 @@
   margin-right: 1rem;
 }
 
+.new-expense button:disabled,
+.new-expense button:focus:disabled,
+.new-expense button:hover:disabled,
+.new-expense button:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
 .new-expense button:hover,
 .new-expense button:active {
   background-color: #510674;
